@@ -47,45 +47,55 @@ Go ([[https://play.google.com/store/apps/details?id=com.coreplane.badukpop.prod&
    liberty is the number of adjacent empty intersections. For example, in fig.
    000, the numbers are the liberties of the groups.
 
-   + (fig. 000)
-     [[file:./img/000.png]]
+   + (fig. 000) [[file:./img/000.png]]
 
    A group with zero liberties is "dead" or "captured" and is removed from the
-   board, with the captured stones.
+   board, with the captured stones (fig 001, 002).
+
+   + (fig. 001) [[file:./img/001.png]]
+   + (fig. 002) [[file:./img/002.png]]
 
 3. No-Suicide
 
    A move cannot leave one's own stones without liberties, unless it
    simultaneously captures an opponent's group. In this case, the opponent's
-   group is captured and removed, while one's own group remains on the board.
+   group is captured and removed, while one's own group remains on the board
+   (fig 003, 004).
+
+   + (fig. 003) [[file:./img/003.png]]
+   + (fig. 004) [[file:./img/004.png]]
 
 4. No-Repetition (Ko)
 
    A move cannot recreate a previous board position, a rule known as ko. For
-   example, starting from Figure 1 with Black's turn, if Black captures a
-   stone as shown, White cannot immediately recapture in the same position
-   (Figure 2). White must play elsewhere first, hoping Black responds,
-   allowing White to retake later (Figure 3).
+   example, starting from fig. 005 if Black has captured a stone as shown,
+   White cannot immediately recapture in the same position. Instead, White
+   must play elsewhere first, hoping Black responds, allowing White to retake
+   later.
+
+   + (fig. 005) [[file:./img/005.png]]
 
 5. Territory Counting
 
    - End-of-game example on a 7x7 board
 
-     Figure 5 shows a completed game where additional moves would not affect
-     the score. Black has one large territory totaling 27 points, while White
-     has two territories totaling 22 points. Typically, the player with more
+     Fig. 006 shows a completed game where additional moves would not affect the
+     score. Black has one large territory totaling 27 points, while White has
+     two territories totaling 22 points. Typically, the player with more
      points wins; thus, Black would win here. However, due to Black's
-     advantage of playing first, White is conventionally given 6.5 free points
+     advantage of playing first, White is conventionally given 7.5 free points
      to start with, bringing White's score to 28.5 points. With this, White
      wins by 1.5 points.
 
+     + (fig. 006) [[file:./img/006.png]]
+
    - End-of-game example on a 19x19 board
 
-     Figure 6 shows a completed game on the standard 19x19 board. Although
+     Fig. 007 shows a completed game on the standard 19x19 board. Although
      additional moves could seem possible, fundamental reading skills reveal
      that further play would not affect the score (explained later in this
      book). For now, take this as given. Black totals 183 points, while White
-     totals 178 points. With 6.5 free points, White wins by reaching 184.5
+     totals 178 points. With 7.5 free points, White wins by reaching 184.5
      points
 
 *** The Way of Survival: Two Eyes
@@ -143,7 +153,7 @@ In the first game, Black and White each root at the corners and establish
 control along the sides. Black then moves to the center, and White begins
 probing the areas where their influence meets. Both players then solidify
 their boundaries. In the end, Black has [TODO] points, and White has [TODO]
-points. With 6.5 free points, White reaches [TODO] points and wins.
+points. With 7.5 free points, White reaches [TODO] points and wins.
 
 In the second game, the openings are similar. However, White goes to far while
 probing, giving Black an opportunity to bend the White stone into Black's
