@@ -1,3 +1,5 @@
+-*- org-image-actual-width: 250; -*-
+
 * Go 101: A Rapid Intro
 
 [[file:./img/cover.png]]
@@ -23,19 +25,12 @@ concise.
 The fastest way to kick start: Community, Play, and Practice!
 
 Gather some friends or join a community to play and discuss! This is the
-quickest way to kick start in any field, and Go is no different. Currently,
-the online platform [[https://online-go.com/][OGS]] is great.
-
-To improve quickly as a beginner, play handicap games with stronger players.
-While diving into big fights can be fun, if fast progress is your goal, focus
-first on defensive play and gradually work on efficiency. Healthy Mindset Tip:
-Don't be shy about handicap games! Go skill, like muscle strength, takes time
-to build. Winning against someone 4-5 ranks higher is extremely unlikely, so
-focus on growth over wins.
+quickest way to kick start in any field. For online platforms, we currently
+best recommend [[https://online-go.com/][OGS]].
 
 When practicing solo, work through Go problems and exercises - there are tons
-available. For mobile practice, we currently recommend BadukPop Go (a free app
-for Android and iOS).
+available. On mobile phones, we currently best recommend the free app BadukPop
+Go ([[https://play.google.com/store/apps/details?id=com.coreplane.badukpop.prod&hl=en_CA][Android]] and [[https://apps.apple.com/us/app/badukpop-go/id1472684271][iOS]]).
 
 ** Foundations
 *** The Rules of Go
