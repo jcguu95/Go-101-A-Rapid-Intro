@@ -97,9 +97,9 @@ surrounded by a single color. For example, in fig. 006, the only Black group
 has three eyes, while each of the White groups has two eyes.
 
 Notice that each group must have two eyes to survive until the end of the
-game. What if a group has only one eye? As shown in fig. 007, it will
-eventually be captured due to the exception in the No-Suicide rule, leading to
-its inevitable death.
+game. What if a group has only one eye? As shown in fig. 007, the single black
+group will eventually be captured due to the exception in the No-Suicide rule,
+leading to its inevitable death.
 
 + (fig. 007) [[file:./img/007.png]]
 
@@ -116,17 +116,19 @@ fig. 008).
 
 However, focusing solely on making your group absolutely live can slow your
 pace too much. For example, in fig. 009, after six moves, Black creates a
-perfectly safe group but controls only 8 points, while White controls about 25
-points! Striking a balance between efficiency and resiliency is key. Mastering
-this balance is a high-level skill, and even the best players or the fastest
-computers can't achieve it perfectly.
+perfectly safe group but controls only 8 points, while White controls half of
+the board!
 
 + (fig. 009) [[file:./img/009.png]]
 
+Striking a balance between efficiency and resiliency is key. Mastering this
+balance is a high-level skill, and even the best players or the fastest
+computers can't achieve it perfectly.
+
 One implication is that a group of stones can be effectively dead before it's
-officially captured. In the fig. 010, for example, although White's group
-still has 10 liberties, we know it won't survive because there's no space to
-create two eyes.
+officially captured. In fig. 010, for example, although White's group still
+has 10 liberties, we know it won't survive because there's no space to create
+two eyes.
 
 + (fig. 010) [[file:./img/010.png]]
 
@@ -200,11 +202,13 @@ pre-capture at A.
 
 ** Fundamentals
 
-In the previous section, we explored some sample games. To truly enjoy Go, it
-is essential to avoid fundamental mistakes. But what counts as "fundamental"?
-This guide defines it for you: if you can steer clear of the mistakes outlined
-in this section, I guarantee you will begin to appreciate the profound depth
-and beauty of Go.
+In the previous section, we looked at sample games and saw how a lack of
+fundamental skills can prevent your plans from succeeding. When your plan
+unfolds as intended, the game becomes much more enjoyable. So, to fully
+appreciate Go, it's essential to avoid fundamental mistakes. But what
+qualifies as "fundamental"? This guide defines it for you: if you can master
+the knowledge points in this section, you will be able to make longer, more
+masterful plans, and experience the profound depth and beauty of Go.
 
 *** Endgame Basics
 *** Capture
