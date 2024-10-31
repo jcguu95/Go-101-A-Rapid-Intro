@@ -146,12 +146,12 @@ it fig. 013, fig. 014, or fig. 015?
 + (fig. 014) [[file:./img/014.png]]
 + (fig. 015) [[file:./img/015.png]]
 
-The perfect timing remains uncertain, as it is a computationally complex
-question that even the fastest computer cannot answer with absolute certainty.
-Though Go is a finite game, its behavior unfolds in ways that are effectively
-infinitesimally continuous, reaching enormous complexity. This intricacy
-brings to mind Conway's Game of Life and the idea that, like Go, our world
-might also be a vast, finite machine - where simple rules give rise to
+The perfect timing remains unknown in general, as it is a computationally
+complex question that even the fastest computer cannot answer with absolute
+certainty. Though Go is a finite game, its behavior unfolds in ways that are
+effectively infinitesimally continuous, reaching enormous complexity. This
+intricacy brings to mind Conway's Game of Life and the idea that, like Go, our
+world might also be a vast, finite machine - where simple rules give rise to
 complex, seemingly infinite patterns.
 
 This introduces the concept of *thickness* in Go. A group of stones isn't simply
@@ -169,25 +169,35 @@ In this section, let's examine two sample games on a 7x7 board. The first game
 is straightforward, while the second is more rugged, demonstrating the
 importance of fundamentals.
 
-In the first game, Black and White each root at the corners and establish
-control along the sides. Black then moves to the center, and White begins
-probing the areas where their influence meets. Both players then solidify
-their boundaries. In the end, Black has [TODO] points, and White has [TODO]
-points. With 7.5 free points, White reaches [TODO] points and wins.
+In the first game, Black and White each root at the corners and Black takes
+the center (fig. 016). Then White begins probing the areas where they meet
+(fig. 017). Both players then solidify their boundaries (fig. 018).
 
-In the second game, the openings are similar. However, White goes to far while
-probing, giving Black an opportunity to bend the White stone into Black's
-territory. This puts the White stone in a highly vulnerable position, and
-further analysis suggests it's almost impossible to save. Such mistakes—and
-subtler ones like it—are common in all games. If Black fails to recognize the
-chance to punish, Black might play a defensive move instead, missing the
-opportunity to gain an advantage. Conversely, if Black sees the opportunity
-but misplays the punishment, they risk losing more points than necessary.
++ (fig. 016) [[file:./img/016.png]]
++ (fig. 017) [[file:./img/017.png]]
++ (fig. 018) [[file:./img/018.png]]
+
+In the end, Black has 22 points, and White has 27 points. With 7.5 free
+points, White reaches 34.5 points and wins.
+
+In the second game, the openings are similar. However, White goes too far
+while probing, giving Black an opportunity to bend the White stone into
+Black's territory (by playing at A in fig. 019). This puts the White stone in
+a highly vulnerable position, and further analysis suggests it's almost
+impossible to save. Such mistakes—and subtler ones like it—are common in all
+games. If Black fails to recognize the chance to punish, Black might play a
+defensive move instead (e.g. B in fig. 019), missing the opportunity to gain
+an advantage. Conversely, if Black sees the opportunity but misplays the
+punishment, they risk losing more points than necessary.
+
++ (fig. 019) [[file:./img/019.png]]
 
 The game continues, and once again, White prioritizes speed over defense, when
-a defensive move at X was needed to prevent a double pre-capture. But once
-again, it's easier said than done; the balance between efficiency and
+a defensive move at A in fig. 020 was needed to prevent a double pre-capture.
+But once again, it's easier said than done; the balance between efficiency and
 resiliency is an art to master.
+
++ (fig. 020) [[file:./img/020.png]]
 
 ** Fundamentals
 
