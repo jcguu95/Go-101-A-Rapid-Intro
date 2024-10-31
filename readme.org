@@ -149,10 +149,10 @@ it fig. 013, fig. 014, or fig. 015?
 The perfect timing remains unknown in general, as it is a computationally
 complex question that even the fastest computer cannot answer with absolute
 certainty. Though Go is a finite game, its behavior unfolds in ways that are
-effectively infinitesimally continuous, reaching enormous complexity. This
+effectively infinitesimally continuous, reaching enormous complexity. (This
 intricacy brings to mind Conway's Game of Life and the idea that, like Go, our
 world might also be a vast, finite machine - where simple rules give rise to
-complex, seemingly infinite patterns.
+complex, seemingly infinite patterns.)
 
 This introduces the concept of *thickness* in Go. A group of stones isn't simply
 alive or dead; it has a health status that exists on a continuous
