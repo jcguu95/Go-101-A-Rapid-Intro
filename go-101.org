@@ -1,0 +1,202 @@
+* Go 101: A Rapid Intro
+
+** Preface
+*** Why This Guide Exists
+
+This guide has one simple goal: to guide a complete adult beginner through the
+basics of Go as quickly as possible. I hope it gives them just enough to enjoy
+the game and appreciate its profound depth and beauty.
+
+I originally wrote this to help new members of a local Go club. They all
+learned way faster than any intro book seemed to expect. I wanted a quick,
+handy guide to show examples during club meetings, and something they could
+take home for easy review. Thus this guide.
+
+*** Fast Way to Kick Start
+
+The fastest way to kick start: Community, Play, and Practice!
+
+Gather some friends or join a community to play and discuss! This is the
+quickest way to kick start in any field, and Go is no different. Currently,
+the online platform [[https://online-go.com/][OGS]] is great.
+
+To improve quickly as a beginner, play handicap games with stronger players.
+While diving into big fights can be fun, if fast progress is your goal, focus
+first on defensive play and gradually work on efficiency. Healthy Mindset Tip:
+Don't be shy about handicap games! Go skill, like muscle strength, takes time
+to build. Winning against someone 4-5 ranks higher is extremely unlikely, so
+focus on growth over wins.
+
+When practicing solo, work through Go problems and exercises - there are tons
+available. For mobile practice, we currently recommend BadukPop Go (a free app
+for Android and iOS).
+
+** Foundations
+*** The Rules of Go
+
+1. Stone Placement
+
+   Go is a two-player game. One player takes Black, and the other takes White,
+   with Black going first. Players alternately place stones on intersections
+   of the board.
+
+2. Groups and Liberties
+
+   Stones of the same color connected through lines form a group. The group's
+   liberty is the number of adjacent empty intersections. A group with zero
+   liberties is "dead" or "captured" and is removed from the board, with the
+   captured stones.
+
+3. No-Suicide
+
+   A move cannot leave one's own stones without liberties, unless it
+   simultaneously captures an opponent's group. In this case, the opponent's
+   group is captured and removed, while one's own group remains on the board.
+
+4. No-Repetition (Ko)
+
+   A move cannot recreate a previous board position, a rule known as ko. For
+   example, starting from Figure 1 with Black's turn, if Black captures a
+   stone as shown, White cannot immediately recapture in the same position
+   (Figure 2). White must play elsewhere first, hoping Black responds,
+   allowing White to retake later (Figure 3).
+
+5. Territory Counting
+
+   - End-of-game example on a 7x7 board
+
+     Figure 5 shows a completed game where additional moves would not affect
+     the score. Black has one large territory totaling 27 points, while White
+     has two territories totaling 22 points. Typically, the player with more
+     points wins; thus, Black would win here. However, due to Black's
+     advantage of playing first, White is conventionally given 6.5 free points
+     to start with, bringing White's score to 28.5 points. With this, White
+     wins by 1.5 points.
+
+   - End-of-game example on a 19x19 board
+
+     Figure 6 shows a completed game on the standard 19x19 board. Although
+     additional moves could seem possible, fundamental reading skills reveal
+     that further play would not affect the score (explained later in this
+     book). For now, take this as given. Black totals 183 points, while White
+     totals 178 points. With 6.5 free points, White wins by reaching 184.5
+     points
+
+*** The Way of Survival: Two Eyes
+
+Notice that each group must have two eyes to survive until the end of the
+game. What if a group has only one eye? As shown in Figure 1, it will
+eventually be captured due to the exception in the No-Suicide rule, leading to
+its inevitable death.
+
+To ensure a group's survival, it must have at least two eyes. This is because
+your opponent can only place one stone per turn and must follow the no-suicide
+rule, making it impossible for them to fill both eyes. Here are a few
+examples. [TODO: Images]
+
+However, focusing solely on making your group absolutely live can slow your
+pace too much. For example, in the following image, after six moves, Black
+creates a perfectly safe group but controls only 8 points, while White
+controls about 25 points! Striking a balance between efficiency and resiliency
+is key. Mastering this balance is a high-level skill, and even the best
+players and computers can't achieve it perfectly.
+
+One implication is that a group of stones can be effectively dead before it's
+officially captured. In the following image, for example, although White's
+group still has 10 liberties, we know it won't survive because there's no
+space to create two eyes.
+
+Consider another example: the Black stone has four liberties and appears to
+have plenty space to form two eyes within the marked area. However, it's clear
+that creating two eyes would require at least five additional moves, and White
+can interrupt this attempt at any time. Therefore, this Black stone is
+effectively dead. This raises the question: when should Black have escaped
+with this stone? Was it in Figure 2, Figure 3, or Figure 4? The perfect timing
+remains uncertain, as it's a computationally complex question that even
+experts cannot answer with absolute certainty. Though Go is a finite game, its
+behavior unfolds in ways that are effectively continuous, reaching enormous
+complexity. This intricacy brings to mind Conway's Game of Life and the idea
+that, like Go, our world might also be a vast, finite machine - where simple
+rules give rise to complex, seemingly infinite patterns.
+
+This introduces the concept of *health* or *thickness* in Go. A group of stones
+isn't simply alive or dead; it has a health status that exists on a continuous
+spectrum—something even computers can't precisely calculate. Mastery in Go
+involves skillfully assessing and managing this health. What makes the game
+engaging, almost “near-art,” is watching strong players overturn your
+perception of a group's vitality, bringing unexpected liveliness and drama to
+the board!
+
+*** Sample Games
+
+In this section, let's examine two sample games on a 7x7 board. The first game
+is straightforward, while the second is more rugged, demonstrating the
+importance of fundamentals.
+
+In the first game, Black and White each root at the corners and establish
+control along the sides. Black then moves to the center, and White begins
+probing the areas where their influence meets. Both players then solidify
+their boundaries. In the end, Black has [TODO] points, and White has [TODO]
+points. With 6.5 free points, White reaches [TODO] points and wins.
+
+In the second game, the openings are similar. However, White goes to far while
+probing, giving Black an opportunity to bend the White stone into Black's
+territory. This puts the White stone in a highly vulnerable position, and
+further analysis suggests it's almost impossible to save. Such mistakes—and
+subtler ones like it—are common in all games. If Black fails to recognize the
+chance to punish, Black might play a defensive move instead, missing the
+opportunity to gain an advantage. Conversely, if Black sees the opportunity
+but misplays the punishment, they risk losing more points than necessary.
+
+The game continues, and once again, White prioritizes speed over defense, when
+a defensive move at X was needed to prevent a double pre-capture. But once
+again, it's easier said than done; the balance between efficiency and
+resiliency is a challenging art to master.
+
+** Fundamentals
+
+In the previous section, you saw some sample games. To truly enjoy Go, I
+believe it's essential to avoid basic mistakes. But what qualifies as "basic"?
+This guide defines it right here. If you can avoid the mistakes outlined in
+this section, I guarantee your games will become more enjoyable, and you'll
+start to appreciate the profound depth and beauty of Go.
+
+*** Endgame Basics
+*** Capture
+
+- Double Pre-capture
+- Encircling Pre-capture
+- Ladder and Breakers
+- Net
+- Snap-Back
+- Connect-and-Die
+
+*** Escape
+
+- Extension
+- Diagonal Move
+- Jump (1-space, 2-space)
+- Knight's Move (large, very large.. etc)
+- Elephant's Move
+
+*** Connect and Cut
+
+- When to cut
+- Direct connection
+- Tiger-mouth connection
+
+*** Life and Death
+
+*** Capturing Race
+
+- Counting Liberties
+- Ko
+- Mutual Life Situations
+- Eye-based Kills
+
+** Epilogue: Landscape of a 19x19 Board
+
+- Opening Principles
+- Standard Sequences
+
+** Appendix
