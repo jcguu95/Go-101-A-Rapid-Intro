@@ -2,11 +2,10 @@
 
 + [[file:./img/cover.png]]
 + [[file:./img/cover.png]] [[file:./img/cover.png]]
-+ [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]]
-+ [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]]
-+ [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]]
-+ [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]]
-+ [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]]
+
+#+CAPTION: Inline Example
+Here's an inline example [[file:./img/cover.png]] with text. [[file:./img/cover.png]]
+
 
 ** Preface
 *** Why This Guide Exists
