@@ -1,6 +1,6 @@
 * Go 101: A Rapid Intro
 
-file:./pic.png
+[[file:./pic.png]]
 
 ** Preface
 *** Why This Guide Exists
