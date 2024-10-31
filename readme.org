@@ -41,15 +41,15 @@ Go ([[https://play.google.com/store/apps/details?id=com.coreplane.badukpop.prod&
    with Black going first. Players alternately place stones on intersections
    of the board.
 
-2. Groups and Liberties
+2. Chains and Liberties
 
-   Stones of the same color connected through lines form a group. The group's
+   Stones of the same color connected through lines form a chain. The chain's
    liberty is the number of adjacent empty intersections. For example, in fig.
-   000, the numbers are the liberties of the groups.
+   000, the numbers are the liberties of the chains.
 
    + (fig. 000) [[file:./img/000.png]]
 
-   A group with zero liberties is "dead" or "captured" and is removed from the
+   A chain with zero liberties is "dead" or "captured" and is removed from the
    board, with the captured stones (fig 001, 002).
 
    + (fig. 001) [[file:./img/001.png]]
@@ -58,8 +58,8 @@ Go ([[https://play.google.com/store/apps/details?id=com.coreplane.badukpop.prod&
 3. No-Suicide
 
    A move cannot leave one's own stones without liberties, unless it
-   simultaneously captures an opponent's group. In this case, the opponent's
-   group is captured and removed, while one's own group remains on the board
+   simultaneously captures an opponent's chain. In this case, the opponent's
+   chain is captured and removed, while one's own chain remains on the board
    (fig 003, 004).
 
    + (fig. 003) [[file:./img/003.png]]
@@ -79,9 +79,9 @@ Go ([[https://play.google.com/store/apps/details?id=com.coreplane.badukpop.prod&
 
    - End-of-game example on a 7x7 board
 
-     Fig. 006 shows a completed game where additional moves would not affect the
-     score. Black has one large territory totaling 27 points, while White has
-     two territories totaling 22 points.
+     Fig. 006 shows a completed game where additional moves would not affect
+     the score. Black has one large group totaling 27 points, while White has
+     two groups (11 points each) totaling 22 points.
 
      + (fig. 006) [[file:./img/006.png]]
 
@@ -92,10 +92,16 @@ Go ([[https://play.google.com/store/apps/details?id=com.coreplane.badukpop.prod&
 
 *** The Way of Survival: Two Eyes
 
+An important notion in Go is "eye". An eye is a connected empty space
+surrounded by a single color. For example, in figure 006, the only Black group
+has three eyes, while each of the White groups has two eyes.
+
 Notice that each group must have two eyes to survive until the end of the
-game. What if a group has only one eye? As shown in Figure 1, it will
+game. What if a group has only one eye? As shown in fig. 007, it will
 eventually be captured due to the exception in the No-Suicide rule, leading to
 its inevitable death.
+
++ (fig. 007) [[file:./img/007.png]]
 
 To ensure a group's survival, it must have at least two eyes. This is because
 your opponent can only place one stone per turn and must follow the no-suicide
@@ -159,7 +165,7 @@ but misplays the punishment, they risk losing more points than necessary.
 The game continues, and once again, White prioritizes speed over defense, when
 a defensive move at X was needed to prevent a double pre-capture. But once
 again, it's easier said than done; the balance between efficiency and
-resiliency is a challenging art to master.
+resiliency is an art to master.
 
 ** Fundamentals
 
