@@ -4,7 +4,7 @@
 + [[file:./img/cover.png]] [[file:./img/cover.png]]
 
 #+CAPTION: Inline Example
-Here's an inline example [[file:./img/cover.png]] with text. [[file:./img/cover.png]]
+Here's an inline example [[file:./img/cover.png]] with text. [[123][file:./img/cover.png]].
 
 
 ** Preface
