@@ -115,11 +115,11 @@ fig. 008).
 + (fig. 008) [[file:./img/008.png]]
 
 However, focusing solely on making your group absolutely live can slow your
-pace too much. For example, in the fig. 009, after six moves, Black creates a
+pace too much. For example, in fig. 009, after six moves, Black creates a
 perfectly safe group but controls only 8 points, while White controls about 25
 points! Striking a balance between efficiency and resiliency is key. Mastering
-this balance is a high-level skill, and even the best players and computers
-can't achieve it perfectly.
+this balance is a high-level skill, and even the best players or the fastest
+computers can't achieve it perfectly.
 
 + (fig. 009) [[file:./img/009.png]]
 
@@ -130,11 +130,11 @@ create two eyes.
 
 + (fig. 010) [[file:./img/010.png]]
 
-Consider another example: the Black stone has four liberties and appears to
-have plenty space to form two eyes within the marked area (fig. 011). However,
-it's clear that creating two eyes would require at least five additional moves
-(fig. 012), and White can interrupt this attempt at any time. Therefore, this
-Black stone is effectively dead.
+Consider another example: In fig. 011, the Black stone has four liberties and
+appears to have plenty space to form two eyes within the marked area. However,
+it has no "time". Indeed, it is clear that creating two eyes would require at
+least five additional moves (fig. 012), and White can interrupt this attempt
+at any time. Therefore, this Black stone is effectively dead.
 
 + (fig. 011) [[file:./img/011.png]]
 + (fig. 012) [[file:./img/012.png]]
