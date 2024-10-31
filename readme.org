@@ -44,11 +44,14 @@ Go ([[https://play.google.com/store/apps/details?id=com.coreplane.badukpop.prod&
 2. Groups and Liberties
 
    Stones of the same color connected through lines form a group. The group's
-   liberty is the number of adjacent empty intersections. A group with zero
-   liberties is "dead" or "captured" and is removed from the board, with the
-   captured stones.
+   liberty is the number of adjacent empty intersections. For example, in fig.
+   000, the numbers are the liberties of the groups.
 
-   + (Fig 000) [[file:./img/000.png]]
+   + (fig. 000)
+     [[file:./img/000.png]]
+
+   A group with zero liberties is "dead" or "captured" and is removed from the
+   board, with the captured stones.
 
 3. No-Suicide
 
