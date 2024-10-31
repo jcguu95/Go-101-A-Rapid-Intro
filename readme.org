@@ -93,7 +93,7 @@ Go ([[https://play.google.com/store/apps/details?id=com.coreplane.badukpop.prod&
 *** The Way of Survival: Two Eyes
 
 An important notion in Go is "eye". An eye is a connected empty space
-surrounded by a single color. For example, in figure 006, the only Black group
+surrounded by a single color. For example, in fig. 006, the only Black group
 has three eyes, while each of the White groups has two eyes.
 
 Notice that each group must have two eyes to survive until the end of the
@@ -105,41 +105,63 @@ its inevitable death.
 
 To ensure a group's survival, it must have at least two eyes. This is because
 your opponent can only place one stone per turn and must follow the no-suicide
-rule, making it impossible for them to fill both eyes. Here are a few
-examples. [TODO: Images]
+rule, making it impossible for them to fill both eyes.
+
+Therefore, it is crucial at critical moments to make two eyes (e.g. Black
+plays at the triangles in fig. 008), or conversely to prevent your opponent
+from making two eyes by "breaking eye" (e.g. White plays at the triangles in
+fig. 008).
+
++ (fig. 008) [[file:./img/008.png]]
 
 However, focusing solely on making your group absolutely live can slow your
-pace too much. For example, in the following image, after six moves, Black
-creates a perfectly safe group but controls only 8 points, while White
-controls about 25 points! Striking a balance between efficiency and resiliency
-is key. Mastering this balance is a high-level skill, and even the best
-players and computers can't achieve it perfectly.
+pace too much. For example, in the fig. 009, after six moves, Black creates a
+perfectly safe group but controls only 8 points, while White controls about 25
+points! Striking a balance between efficiency and resiliency is key. Mastering
+this balance is a high-level skill, and even the best players and computers
+can't achieve it perfectly.
+
++ (fig. 009) [[file:./img/009.png]]
 
 One implication is that a group of stones can be effectively dead before it's
-officially captured. In the following image, for example, although White's
-group still has 10 liberties, we know it won't survive because there's no
-space to create two eyes.
+officially captured. In the fig. 010, for example, although White's group
+still has 10 liberties, we know it won't survive because there's no space to
+create two eyes.
+
++ (fig. 010) [[file:./img/010.png]]
 
 Consider another example: the Black stone has four liberties and appears to
-have plenty space to form two eyes within the marked area. However, it's clear
-that creating two eyes would require at least five additional moves, and White
-can interrupt this attempt at any time. Therefore, this Black stone is
-effectively dead. This raises the question: when should Black have escaped
-with this stone? Was it in Figure 2, Figure 3, or Figure 4? The perfect timing
-remains uncertain, as it's a computationally complex question that even
-experts cannot answer with absolute certainty. Though Go is a finite game, its
-behavior unfolds in ways that are effectively continuous, reaching enormous
-complexity. This intricacy brings to mind Conway's Game of Life and the idea
-that, like Go, our world might also be a vast, finite machine - where simple
-rules give rise to complex, seemingly infinite patterns.
+have plenty space to form two eyes within the marked area (fig. 011). However,
+it's clear that creating two eyes would require at least five additional moves
+(fig. 012), and White can interrupt this attempt at any time. Therefore, this
+Black stone is effectively dead.
 
-This introduces the concept of *health* or *thickness* in Go. A group of stones
-isn't simply alive or dead; it has a health status that exists on a continuous
-spectrum—something even computers can't precisely calculate. Mastery in Go
-involves skillfully assessing and managing this health. What makes the game
-engaging, almost “near-art,” is watching strong players overturn your
-perception of a group's vitality, bringing unexpected liveliness and drama to
-the board!
++ (fig. 011) [[file:./img/011.png]]
++ (fig. 012) [[file:./img/012.png]]
+
+This raises the question: when should Black have escaped with this stone? Was
+it fig. 013, fig. 014, or fig. 015?
+
++ (fig. 013) [[file:./img/013.png]]
++ (fig. 014) [[file:./img/014.png]]
++ (fig. 015) [[file:./img/015.png]]
+
+The perfect timing remains uncertain, as it is a computationally complex
+question that even the fastest computer cannot answer with absolute certainty.
+Though Go is a finite game, its behavior unfolds in ways that are effectively
+infinitesimally continuous, reaching enormous complexity. This intricacy
+brings to mind Conway's Game of Life and the idea that, like Go, our world
+might also be a vast, finite machine - where simple rules give rise to
+complex, seemingly infinite patterns.
+
+This introduces the concept of *thickness* in Go. A group of stones isn't simply
+alive or dead; it has a health status that exists on a continuous
+spectrum—something even computers can't precisely calculate.
+
+Mastery in Go involves skillfully assessing and managing the thickness of the
+groups. What makes the game engaging, almost “near-art,” is watching strong
+players overturn your perception of a group's vitality, bringing unexpected
+liveliness and drama to the board!
 
 *** Sample Games
 
