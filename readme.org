@@ -81,22 +81,14 @@ Go ([[https://play.google.com/store/apps/details?id=com.coreplane.badukpop.prod&
 
      Fig. 006 shows a completed game where additional moves would not affect the
      score. Black has one large territory totaling 27 points, while White has
-     two territories totaling 22 points. Typically, the player with more
-     points wins; thus, Black would win here. However, due to Black's
-     advantage of playing first, White is conventionally given 7.5 free points
-     to start with, bringing White's score to 28.5 points. With this, White
-     wins by 1.5 points.
+     two territories totaling 22 points.
 
      + (fig. 006) [[file:./img/006.png]]
 
-   - End-of-game example on a 19x19 board
-
-     Fig. 007 shows a completed game on the standard 19x19 board. Although
-     additional moves could seem possible, fundamental reading skills reveal
-     that further play would not affect the score (explained later in this
-     book). For now, take this as given. Black totals 183 points, while White
-     totals 178 points. With 7.5 free points, White wins by reaching 184.5
-     points
+     Typically, the player with more points wins; thus, Black would win here.
+     However, due to Black's advantage of playing first, White is
+     conventionally given 7.5 free points to start with, bringing White's
+     score to 28.5 points. With this, White wins by 1.5 points.
 
 *** The Way of Survival: Two Eyes
 
