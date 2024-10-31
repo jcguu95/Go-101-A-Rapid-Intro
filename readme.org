@@ -1,6 +1,12 @@
 * Go 101: A Rapid Intro
 
+[[file:./img/cover.png]]
 [[file:./img/cover.png]] [[file:./img/cover.png]]
+[[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]]
+[[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]]
+[[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]]
+[[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]]
+[[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]] [[file:./img/cover.png]]
 
 ** Preface
 *** Why This Guide Exists
