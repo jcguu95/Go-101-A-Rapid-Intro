@@ -188,24 +188,23 @@ impossible to save. Such mistakes—and subtler ones like it—are common in all
 games. If Black fails to recognize the chance to punish, Black might play a
 defensive move instead (e.g. B in fig. 019), missing the opportunity to gain
 an advantage. Conversely, if Black sees the opportunity but misplays the
-punishment, they risk losing more points than necessary.
+punishment, they risk losing even more points.
 
 + (fig. 019) [[file:./img/019.png]]
 
-The game continues, and once again, White prioritizes speed over defense, when
-a defensive move at A in fig. 020 was needed to prevent a double pre-capture.
-But once again, it's easier said than done; the balance between efficiency and
-resiliency is an art to master.
+The game continues, and once again, in fig. 020, White prioritizes speed over
+defense too much when a defensive move is needed to prevent a double
+pre-capture at A.
 
 + (fig. 020) [[file:./img/020.png]]
 
 ** Fundamentals
 
-In the previous section, you saw some sample games. To truly enjoy Go, I
-believe it's essential to avoid basic mistakes. But what qualifies as "basic"?
-This guide defines it right here. If you can avoid the mistakes outlined in
-this section, I guarantee your games will become more enjoyable, and you'll
-start to appreciate the profound depth and beauty of Go.
+In the previous section, we explored some sample games. To truly enjoy Go, it
+is essential to avoid fundamental mistakes. But what counts as "fundamental"?
+This guide defines it for you: if you can steer clear of the mistakes outlined
+in this section, I guarantee you will begin to appreciate the profound depth
+and beauty of Go.
 
 *** Endgame Basics
 *** Capture
