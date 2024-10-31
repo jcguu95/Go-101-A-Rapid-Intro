@@ -1,5 +1,7 @@
 * Go 101: A Rapid Intro
 
+file:./pic.png
+
 ** Preface
 *** Why This Guide Exists
 
@@ -11,6 +13,10 @@ I originally wrote this to help new members of a local Go club. They all
 learned way faster than any intro book seemed to expect. I wanted a quick,
 handy guide to show examples during club meetings, and something they could
 take home for easy review. Thus this guide.
+
+We prioritize speed over depth here. If you notice any words or figures that
+don't add value, let me know, and I'll remove them to keep the content
+concise.
 
 *** Fast Way to Kick Start
 
