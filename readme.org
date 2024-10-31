@@ -48,6 +48,8 @@ Go ([[https://play.google.com/store/apps/details?id=com.coreplane.badukpop.prod&
    liberties is "dead" or "captured" and is removed from the board, with the
    captured stones.
 
+   + (Fig 000) [[file:./img/000.png]]
+
 3. No-Suicide
 
    A move cannot leave one's own stones without liberties, unless it
