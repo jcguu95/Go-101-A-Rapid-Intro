@@ -1,5 +1,7 @@
 -*- org-image-actual-width: 250; -*-
+
 * Preface
+
 ** Why This Guide Exists
 
 This guide has one simple goal: to guide a complete adult beginner through the

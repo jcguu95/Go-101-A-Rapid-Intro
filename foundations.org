@@ -1,0 +1,169 @@
+-*- org-image-actual-width: 250; -*-
+
+* Foundations
+** The Rules of Go
+
+1. Stone Placement
+
+   Go is a two-player game. One player takes Black, and the other takes White,
+   with Black going first. Players alternately place stones on intersections
+   of the board.
+
+2. Chains and Liberties
+
+   Stones of the same color connected through lines form a chain. The chain's
+   liberty is the number of adjacent empty intersections. For example, in fig.
+   000, the numbers are the liberties of the chains.
+
+   + (fig. 000) [[file:./img/000.png]]
+
+   A chain with zero liberties is "dead" or "captured" and is removed from the
+   board, with the captured stones (fig 001, 002).
+
+   + (fig. 001) [[file:./img/001.png]]
+   + (fig. 002) [[file:./img/002.png]]
+
+3. No-Suicide
+
+   A move cannot leave one's own stones without liberties, unless it
+   simultaneously captures an opponent's chain. In this case, the opponent's
+   chain is captured and removed, while one's own chain remains on the board
+   (fig 003, 004).
+
+   + (fig. 003) [[file:./img/003.png]]
+   + (fig. 004) [[file:./img/004.png]]
+
+4. No-Repetition (Ko)
+
+   A move cannot recreate a previous board position, a rule known as ko. For
+   example, starting from fig. 005 if Black has captured a stone as shown,
+   White cannot immediately recapture in the same position. Instead, White
+   must play elsewhere first, hoping Black responds, allowing White to retake
+   later.
+
+   + (fig. 005) [[file:./img/005.png]]
+
+5. Territory Counting
+
+   - End-of-game example on a 7x7 board
+
+     Fig. 006 shows a completed game where additional moves would not affect
+     the score. Black has one large group totaling 27 points, while White has
+     two groups (11 points each) totaling 22 points.
+
+     + (fig. 006) [[file:./img/006.png]]
+
+     Typically, the player with more points wins; thus, Black would win here.
+     However, due to Black's advantage of playing first, White is
+     conventionally given 7.5 free points to start with, bringing White's
+     score to 28.5 points. With this, White wins by 1.5 points.
+
+** The Way of Survival: Two Eyes
+
+An important notion in Go is "eye". An eye is a connected empty space
+surrounded by a single color. For example, in fig. 006, the only Black group
+has three eyes, while each of the White groups has two eyes.
+
+Notice that each group must have two eyes to survive until the end of the
+game. What if a group has only one eye? As shown in fig. 007, the single black
+group will eventually be captured due to the exception in the No-Suicide rule,
+leading to its inevitable death.
+
++ (fig. 007) [[file:./img/007.png]]
+
+To ensure a group's survival, it must have at least two eyes. This is because
+your opponent can only place one stone per turn and must follow the no-suicide
+rule, making it impossible for them to fill both eyes.
+
+Therefore, it is crucial at critical moments to make two eyes (e.g. Black
+plays at the triangles in fig. 008), or conversely to prevent your opponent
+from making two eyes by "breaking eye" (e.g. White plays at the triangles in
+fig. 008).
+
++ (fig. 008) [[file:./img/008.png]]
+
+However, focusing solely on making your group absolutely live can slow your
+pace too much. For example, in fig. 009, after six moves, Black creates a
+perfectly safe group but controls only 8 points, while White controls half of
+the board!
+
++ (fig. 009) [[file:./img/009.png]]
+
+Striking a balance between efficiency and resiliency is key. Mastering this
+balance is a high-level skill, and even the best players or the fastest
+computers can't achieve it perfectly.
+
+One implication is that a group of stones can be effectively dead before it's
+officially captured. In fig. 010, for example, although White's group still
+has 10 liberties, we know it won't survive because there's no space to create
+two eyes.
+
++ (fig. 010) [[file:./img/010.png]]
+
+Consider another example: In fig. 011, the Black stone has four liberties and
+appears to have plenty space to form two eyes within the marked area. However,
+it has no "time". Indeed, it is clear that creating two eyes would require at
+least five additional moves (fig. 012), and White can interrupt this attempt
+at any time. Therefore, this Black stone is effectively dead.
+
++ (fig. 011) [[file:./img/011.png]]
++ (fig. 012) [[file:./img/012.png]]
+
+This raises the question: when should Black have escaped with this stone? Was
+it fig. 013, fig. 014, or fig. 015?
+
++ (fig. 013) [[file:./img/013.png]]
++ (fig. 014) [[file:./img/014.png]]
++ (fig. 015) [[file:./img/015.png]]
+
+The perfect timing remains unknown in general, as it is a computationally
+complex question that even the fastest computer cannot answer with absolute
+certainty. Though Go is a finite game, its behavior unfolds in ways that are
+effectively infinitesimally continuous, reaching enormous complexity. (This
+intricacy brings to mind Conway's Game of Life and the idea that, like Go, our
+world might also be a vast, finite machine - where simple rules give rise to
+complex, seemingly infinite patterns.)
+
+This introduces the concept of *thickness* in Go. A group of stones isn't simply
+alive or dead; it has a health status that exists on a continuous
+spectrum—something even computers can't precisely calculate.
+
+Mastery in Go involves skillfully assessing and managing the thickness of the
+groups. What makes the game engaging, almost “near-art,” is watching strong
+players overturn your perception of a group's vitality, bringing unexpected
+liveliness and drama to the board!
+
+** Sample Games
+
+In this section, let's examine two sample games on a 7x7 board. The first game
+is straightforward, while the second is more rugged, demonstrating the
+importance of fundamentals.
+
+In the first game, Black and White each root at the corners and Black takes
+the center (fig. 016). Then White begins probing the areas where they meet
+(fig. 017). Both players then solidify their boundaries (fig. 018).
+
++ (fig. 016) [[file:./img/016.png]]
++ (fig. 017) [[file:./img/017.png]]
++ (fig. 018) [[file:./img/018.png]]
+
+In the end, Black has 22 points, and White has 27 points. With 7.5 free
+points, White reaches 34.5 points and wins.
+
+In the second game, the openings are similar. However, White goes too far
+while probing, giving Black an opportunity to bend the White stone into
+Black's territory (by playing at A in fig. 019). This puts the White stone in
+a highly vulnerable position, and further analysis suggests it's almost
+impossible to save. Such mistakes—and subtler ones like it—are common in all
+games. If Black fails to recognize the chance to punish, Black might play a
+defensive move instead (e.g. B in fig. 019), missing the opportunity to gain
+an advantage. Conversely, if Black sees the opportunity but misplays the
+punishment, they risk losing even more points.
+
++ (fig. 019) [[file:./img/019.png]]
+
+The game continues, and once again, in fig. 020, White prioritizes speed over
+defense too much when a defensive move is needed to prevent a double
+pre-capture at A.
+
++ (fig. 020) [[file:./img/020.png]]

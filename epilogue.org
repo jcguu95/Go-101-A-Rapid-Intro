@@ -1,0 +1,6 @@
+-*- org-image-actual-width: 250; -*-
+
+* Epilogue: Landscape of a 19x19 Board
+
+- Opening Principles
+- Standard Sequences
