@@ -202,18 +202,82 @@ pre-capture at A.
 
 ** Fundamentals
 
-In the previous section, we looked at sample games and saw how a lack of
-fundamental skills can prevent your plans from succeeding. When your plan
-unfolds as intended, the game becomes much more enjoyable. So, to fully
-appreciate Go, it's essential to get used to the fundamentals. If you can
-master the knowledge points in this section, you will be able to make longer,
-more masterful plans, and experience the profound depth and beauty of Go.
+Sooner or later, you'll start crafting strategies to set up on the board. Some
+of your plans will have clever touches that's only obvious to you. And when
+they unfold just as you envisioned, the satisfaction is unmatched. However, as
+we saw in the previous section, a lack of basic skills can keep these plans
+from succeeding. So before diving into grand, delicate, long-term strategies,
+it's essential to get comfortable with the fundamentals.
 
 *** Capture
 
+In this section, we'll cover basic capturing techniques. On the flip side,
+this also means you'll learn how to defend against those same techniques.
+
 - Double Pre-capture
+
+  Stones connect to form chains, and chains combine to form groups. However,
+  sometimes your group’s chains may have critical weak points that can be cut.
+  One of these vulnerabilities is known as a "double pre-capture." In the
+  following two figures, the triangles mark these critical cutting points. If
+  it’s White’s turn, White should play there to defend. If it’s Black’s turn,
+  Black aims to play there to initiate a double pre-capture—meaning that on
+  the next move, Black can capture at least one of White’s chains.
+
+
+  + [[file:./img/double-precapture-1.png]] (double-precapture-1.png)
+  + [[file:./img/double-precapture-2.png]] (double-precapture-2.png)
+
 - Encircling Pre-capture
+
+  Usually, a simple pre-capture isn’t very powerful, as the opponent can often
+  escape by extending their chain. For example, in the figure below, if Black
+  plays at B, this is a normal pre-capture, and White can simply extend the
+  chain by playing at A to escape. However, if Black plays at A, White has no
+  way to save that stone! This tactic is called an "encircling pre-capture."
+
+  + [[file:./img/encircling-precapture-1.png]] (encircling-precapture-2.png)
+
 - Ladder and Breakers
+
+  In Go, there's a shape that requires calculating several moves ahead, yet it
+  becomes surprisingly simple once you get the hang of it. This is called a
+  "ladder."
+
+  A ladder setup is shown in figure ladder-1, where Black can capture the
+  marked White stone if it is Black's turn. If Black plays at C6, White can
+  respond at B6 to escape, making Black's attempt unsuccessful. Instead, to
+  capture White, Black should play as shown in figure ladder-2, guiding
+  White's escape in a direction that benefits Black. Black can continue to
+  apply pre-capturing pressure, forcing White to keep retreating, until the
+  end of the board (figure ladder-4)!
+
+  + [[file:./img/ladder-1.png]] (ladder-1.png)
+  + [[file:./img/ladder-2.png]] (ladder-2.png)
+  + [[file:./img/ladder-3.png]] (ladder-3.png)
+  + [[file:./img/ladder-4.png]] (ladder-4.png)
+
+  A ladder is powerful, but it must be used with caution. Looking again at
+  figure ladder-4, while we see Black's success, it's a brittle one. Notice
+  how many pre-capture points Black has! This means that if Black fails to
+  maintain the rhythm of pre-capturing, they could quickly find themselves in
+  trouble.
+
+  This means that if White realizes they are at a disadvantage in the ladder,
+  instead of trying to escape immediately, White could consider placing a
+  ladder breaker along the path. For example, point B in figure
+  ladder-breaker-1. If Black overlooks this ladder breaker and continues to
+  pursue the ladder, White will eventually connect to it, disrupting Black's
+  laddering sequence and placing Black in sudden danger due to their many
+  vulnerable pre-capture points (figure ladder-breaker-2)!
+
+  + [[file:./img/ladder-breaker-1.png]] (ladder-breaker-1.png)
+  + [[file:./img/ladder-breaker-2.png]] (ladder-breaker-2.png)
+
+  On the other hand, if Black notices a ladder breaker, they should either
+  abandon the ladder pursuit or place a ladder anti-breaker along the
+  path—positioned somewhere before White's ladder breaker.
+
 - Net
 - Snap-Back
 - Connect-yet-Die
