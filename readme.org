@@ -275,7 +275,7 @@ this also means you'll learn how to defend against those same techniques.
   + [[file:./img/ladder-breaker-2.png]] (ladder-breaker-2.png)
 
   On the other hand, if Black notices a ladder breaker, they should either
-  abandon the ladder pursuit or place a ladder anti-breaker along the
+  abandon the ladder plan, or place a ladder anti-breaker along the
   path—positioned somewhere before White's ladder breaker.
 
 - Net
@@ -410,6 +410,44 @@ this large knight move is secure and will not be cut off from Black's base.
 - Counting Liberties
 - Mutual Life Situations
 - Eye-based Kills
+
+Capture occurs when one group is in immediate danger. But what if two groups
+of different colors, intertwined and both at risk, are in danger
+simultaneously? This situation is called a capture race. It's crucial to
+assess the situation carefully and decide your next move. If your current move
+won't affect the capture race outcome, it may be best to use it elsewhere.
+However, if this move is pivotal, it's worth considering.
+
+The simplest capture race involves comparing liberties on each side. In the
+following example, the endangered stones are marked, with White having three
+liberties and Black two. If it's White's turn, they don't need to respond
+directly and could play elsewhere (for example, an endgame move at the top).
+The same applies to Black. However, if both intertwined groups have an equal
+number of liberties, each side should prioritize this area—whoever plays there
+first will win the capture race.
+
+- [[file:./img/capture-race-1.png]]
+
+Here's an interesting example: the two intertwined groups each lack eyes.
+However, neither will be captured because whichever group attempts to kill the
+other would end up being captured itself. As a result, neither side will make
+a move here. This unique situation is known as a “mutual life.”
+
+- [[file:./img/capture-race-2.png]]
+
+The same situation occurs when both endangered groups each have only one eye.
+Please confirm for yourself that the marked stones of both colors in the
+following example are in this situation: neither group will make a capturing
+move, and both will survive until the end of the game, even without having two
+eyes.
+
+- [[file:./img/capture-race-4.png]]
+
+The situation changes if one group has an eye and the other has none. In the
+following example, White wins the capture race (meaning all of Black's marked
+stones are captured) because White has an eye. Verify this.
+
+- [[file:./img/capture-race-3.png]]
 
 *** Life and Death
 
