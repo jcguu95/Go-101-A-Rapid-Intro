@@ -336,6 +336,16 @@ allows for a seemingly faster escape from danger, but Black could easily cut
 the two White stones apart. The elephant's move is also fast, yet it exposes a
 weakness at point A.
 
+For escaping danger, the 1-space jump and diagonal move are the most common
+choices. They strike a good balance between resilience and efficiency in most
+situations, yet there are important differences. For instance, their
+directions vary. This might seem minor on a small board, but in a serious game
+on a standard 19x19 board, you often need to choose your escape direction
+carefully to avoid future threats. Additionally, while the 1-space jump is
+slightly faster than the diagonal move, it's also inherently weaker. In very
+rare cases, where Black's surrounding groups are extremely strong, Black could
+still forcefully cut by playing at C4!
+
 - [[file:./img/extension-2.png]]
 - [[file:./img/extension-3.png]]
 - [[file:./img/extension-4.png]]
