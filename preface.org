@@ -1,0 +1,28 @@
+-*- org-image-actual-width: 250; -*-
+* Preface
+** Why This Guide Exists
+
+This guide has one simple goal: to guide a complete adult beginner through the
+basics of Go as quickly as possible. I hope it gives them just enough to enjoy
+the game and appreciate its profound depth and beauty.
+
+I originally wrote this to help new members of a local Go club. They all
+learned way faster than any intro book seemed to expect. I wanted a quick,
+handy guide to show examples during club meetings, and something they could
+take home for easy review. Thus this guide.
+
+We prioritize speed over depth here. If you notice any words or figures that
+don't add value, let me know, and I'll remove them to keep the content
+concise.
+
+** Fast Way to Kick Start
+
+The fastest way to kick start: Community, Play, and Practice!
+
+Gather some friends or join a community to play and discuss! This is the
+quickest way to kick start in any field. For online platforms, we currently
+best recommend [[https://online-go.com/][OGS]].
+
+When practicing solo, work through Go problems and exercises - there are tons
+available. On mobile phones, we currently best recommend the free app BadukPop
+Go ([[https://play.google.com/store/apps/details?id=com.coreplane.badukpop.prod&hl=en_CA][Android]] and [[https://apps.apple.com/us/app/badukpop-go/id1472684271][iOS]]).
