@@ -279,8 +279,43 @@ this also means you'll learn how to defend against those same techniques.
   path—positioned somewhere before White's ladder breaker.
 
 - Net
+
+  Closely related to a ladder is a net, as shown in the following figures. To
+  capture the marked white stone, a ladder would fail for Black due to White's
+  ladder breaker. Instead, Black can play at A, slightly further from White.
+  Although this move may seem less forceful, it's actually more effective!
+  This kind of "flexible wins rigid" philosophy appears frequently on the
+  19x19 board.
+
+  + [[file:./img/net-1.png]]
+  + [[file:./img/net-2.png]]
+  + [[file:./img/net-3.png]]
+
+  A fancier net is shown in the following figures:
+
+  + [[file:./img/net-4.png]]
+  + [[file:./img/net-5.png]]
+
 - Snap-Back
+
+  Sometimes, a sacrifice is essential—this perfectly describes the "snap-back"
+  technique. Take a look at the following figure. To capture the marked White
+  stones, Black shouldn't play at B, which would be a typical pre-capture.
+  Instead, Black should place a stone at the seemingly risky point A. If White
+  captures that stone by playing at B, Black can then immediately capture all
+  the marked White stones in return! It's like magic!
+
+  + [[file:./img/snapback.png]]
+
 - Connect-yet-Die
+
+  Connection does not always save your stones! For example, in the following
+  figure, the marked White stones are dead once Black plays at A. Even though
+  White tries to connect at B, upon connection A could take all stones away
+  at C.
+
+  + [[file:./img/connect-yet-die-1.png]]
+  + [[file:./img/connect-yet-die-2.png]]
 
 *** Escape / Extension
 
