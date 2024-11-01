@@ -7,5 +7,5 @@
 1. [[file:preface.org][Preface]]
 2. [[file:foundations.org][Foundations]]
 3. [[file:fundamentals.org][Fundamentals]]
-4. [[file:epilogue.org][Epilogue: Landscape of a 19x19 Board]]
-5. [[file:appendix.org][Appendix]]
+4. TODO [[file:epilogue.org][Epilogue: Landscape of a 19x19 Board]]
+5. TODO [[file:appendix.org][Appendix]]
