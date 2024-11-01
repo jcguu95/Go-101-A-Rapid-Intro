@@ -457,10 +457,11 @@ However, we've also seen that rushing to make two eyes for each group can slow
 you down significantly. Instead, the goal is to find the perfect timing to
 create (if defending) or break (if attacking) a second eye.
 
-If the first eye is big enough, then you don't have to make/break the second
-eye. However, if it's reduced to small spaces like the followings, then you
-need to make/break the second eye at the marked points. It is very important
-to verify these by yourself a few times in your life.
+If your first eye is large enough, you do not need to make a second one.
+However, if it's reduced to smaller spaces like those shown in the following
+examples, then creating or breaking the second eye at the marked points
+becomes essential. It's very important to verify these situations on your own
+a few times.
 
 - [[file:./img/life-and-death-1.png]]
 - [[file:./img/life-and-death-2.png]]
