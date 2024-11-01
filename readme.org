@@ -355,11 +355,56 @@ still forcefully cut by playing at C4!
 
 *** Connect and Cut
 
-- When to cut
-- Direct connection
-- Tiger-mouth connection
+Look for weak connections among chains. For example, in the first figure
+below, if it's White's turn, White could cut at A, forcing Black to connect at
+D3. Then, White can extend to B, encircling the two marked Black stones, as
+shown in the second figure.
+
+If it's Black's turn, Black must defend this weak spot by connecting—either
+with a direct connection at A or a tiger-mouth connection at B. The latter is
+slightly weaker but, in certain situations, can offer better control over
+nearby area.
+
+- [[file:./img/cut-1.png]]
+- [[file:./img/cut-2.png]]
+
+So it may seems tempting to cut. But before you cut, you need to think why you
+should. If a cut does no good, effectively you loose a move, which usually
+means loosing ~10 points all of the sudden. For example, in the following
+figure, White cutting at A has no effect at all as all Black groups around are
+strong. Therefore, White should not cut.
+
+- [[file:./img/cut-3.png]]
 
 *** Endgame Basics
+
+In the example below, White must connect the cutting point below; otherwise,
+Black can pre-capture White's stone on the bottom line and chase it all the
+way to the edge of the board.
+
+- [[file:./img/endgame-1.png]]
+- [[file:./img/endgame-2.png]]
+
+Here's another common example. White must connect at A; otherwise, Black can
+play at A to encircle White's stone at C2, leaving White with no way to save
+it.
+
+- [[file:./img/endgame-3.png]]
+- [[file:./img/endgame-4.png]]
+
+And here's a similar situation: if White plays at A, it effectively encircles
+the two Black stones, capturing them.
+
+- [[file:./img/endgame-7.png]]
+
+Finally, we have a very common scenario. If it's Black's turn, the most
+ambitious yet reasonable way to reduce White's territory is to make a large
+knight's move, as shown. It is important to take some time to confirm that
+this large knight move is secure and will not be cut off from Black's base.
+
+- [[file:./img/endgame-5.png]]
+- [[file:./img/endgame-6.png]]
+
 *** Capture Race
 
 - Counting Liberties
