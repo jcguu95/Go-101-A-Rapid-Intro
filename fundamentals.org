@@ -17,12 +17,12 @@ this also means you'll learn how to defend against those same techniques.
 - Double Pre-capture
 
   Stones connect to form chains, and chains combine to form groups. However,
-  sometimes your group’s chains may have critical weak points that can be cut.
+  sometimes your group's chains may have critical weak points that can be cut.
   One of these vulnerabilities is known as a "double pre-capture." In the
   following two figures, the triangles mark these critical cutting points. If
-  it’s White’s turn, White should play there to defend. If it’s Black’s turn,
+  it's White's turn, White should play there to defend. If it's Black's turn,
   Black aims to play there to initiate a double pre-capture—meaning that on
-  the next move, Black can capture at least one of White’s chains.
+  the next move, Black can capture at least one of White's chains.
 
 
   + [[file:./img/double-precapture-1.png]] (double-precapture-1.png)
