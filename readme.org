@@ -205,12 +205,10 @@ pre-capture at A.
 In the previous section, we looked at sample games and saw how a lack of
 fundamental skills can prevent your plans from succeeding. When your plan
 unfolds as intended, the game becomes much more enjoyable. So, to fully
-appreciate Go, it's essential to avoid fundamental mistakes. But what
-qualifies as "fundamental"? This guide defines it for you: if you can master
-the knowledge points in this section, you will be able to make longer, more
-masterful plans, and experience the profound depth and beauty of Go.
+appreciate Go, it's essential to get used to the fundamentals. If you can
+master the knowledge points in this section, you will be able to make longer,
+more masterful plans, and experience the profound depth and beauty of Go.
 
-*** Endgame Basics
 *** Capture
 
 - Double Pre-capture
@@ -218,11 +216,11 @@ masterful plans, and experience the profound depth and beauty of Go.
 - Ladder and Breakers
 - Net
 - Snap-Back
-- Connect-and-Die
+- Connect-yet-Die
 
-*** Escape
+*** Escape / Extension
 
-- Extension
+- Direct Extension
 - Diagonal Move
 - Jump (1-space, 2-space)
 - Knight's Move (large, very large.. etc)
@@ -234,14 +232,14 @@ masterful plans, and experience the profound depth and beauty of Go.
 - Direct connection
 - Tiger-mouth connection
 
-*** Life and Death
-
-*** Capturing Race
+*** Endgame Basics
+*** Capture Race
 
 - Counting Liberties
-- Ko
 - Mutual Life Situations
 - Eye-based Kills
+
+*** Life and Death
 
 ** Epilogue: Landscape of a 19x19 Board
 
