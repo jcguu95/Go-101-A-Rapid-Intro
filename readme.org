@@ -451,6 +451,37 @@ stones are captured) because White has an eye. Verify this.
 
 *** Life and Death
 
+In most cases, a group of stones needs at least two eyes to survive until the
+end of the game (an exception being the aforementioned "mutual life").
+However, we've also seen that rushing to make two eyes for each group can slow
+you down significantly. Instead, the goal is to find the perfect timing to
+create (if defending) or break (if attacking) a second eye.
+
+If the first eye is big enough, then you don't have to make/break the second
+eye. However, if it's reduced to small spaces like the followings, then you
+need to make/break the second eye at the marked points. It is very important
+to verify these by yourself a few times in your life.
+
+- [[file:./img/life-and-death-1.png]]
+- [[file:./img/life-and-death-2.png]]
+- [[file:./img/life-and-death-3.png]]
+- [[file:./img/life-and-death-4.png]]
+- [[file:./img/life-and-death-5.png]]
+- [[file:./img/life-and-death-6.png]]
+
+The following case, though Black has 4 points in its eye, it is effectively
+dead, because it takes two moves to make an eye. Upon attempt, White could
+interrupt it. Therefore, both sides need not play here anymore.
+
+- [[file:./img/life-and-death-7.png]]
+
+In the followings though, Black has lived, as White needs two moves to break
+the second eye. Upon attempt, Black could interrupt it. Therefore, both sides
+need not play here anymore.
+
+- [[file:./img/life-and-death-8.png]]
+- [[file:./img/life-and-death-9.png]]
+
 ** Epilogue: Landscape of a 19x19 Board
 
 - Opening Principles
