@@ -319,11 +319,29 @@ this also means you'll learn how to defend against those same techniques.
 
 *** Escape / Extension
 
-- Direct Extension
-- Diagonal Move
-- Jump (1-space, 2-space)
-- Knight's Move (large, very large.. etc)
-- Elephant's Move
+A common move to expand your group of stones is called a "general extension."
+This is especially useful when your stones are in danger. For example, in the
+next figure, White needs to escape immediately; otherwise, Black could play at
+A to trap and pressure White.
+
++ [[file:./img/extension-1.png]]
+
+There are several types of extension moves, shown in the following figures. In
+order, they are: direct extension, 1-space jump, 2-space jump, knight's move,
+elephant's move, and diagonal move. Each has unique characteristics, but
+generally, the smaller the extension, the stronger the connection—though it
+sacrifices efficiency. For instance, a direct extension provides the most
+solid connection here, but it's a bit slow for this situation. A 2-space jump
+allows for a seemingly faster escape from danger, but Black could easily cut
+the two White stones apart. The elephant's move is also fast, yet it exposes a
+weakness at point A.
+
+- [[file:./img/extension-2.png]]
+- [[file:./img/extension-3.png]]
+- [[file:./img/extension-4.png]]
+- [[file:./img/extension-5.png]]
+- [[file:./img/extension-6.png]]
+- [[file:./img/extension-7.png]]
 
 *** Connect and Cut
 
